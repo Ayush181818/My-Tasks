@@ -17,20 +17,29 @@ This is a mobile to-do list application developed using React Native and Expo. T
 ## How to Set Up and Run
 
 1. **Clone the Repository**  
-   Clone this project using the following command:
+   Clone this project using the following command: 
+       git clone https://github.com/Ayush181818/My-Tasks.git
    
-   git clone https://github.com/Ayush181818/My-Tasks.git
-3. **Install Dependencies**  
+2. **Install Dependencies**  
 Make sure you have `Node.js` installed. Then run:
-
 npm install
-5. **Start the Expo Development Server**  
+
+3. **Start the Expo Development Server**  
 npx expo start
-6. **Scan the QR Code**  
+
+4. **Scan the QR Code**  
 - Download the **Expo Go** app on your Android or iOS device.
 - Scan the QR code displayed in the terminal or the browser window.
 
 ## Requirements
 - Node.js and npm
 - Expo Go app on your phone
+
+## Challenges & Design Choices
+
+- Notifications don’t fully work on web, so the app is focused on mobile (Expo Go).
+- Used simple priority indicators (High, Medium, Low) for clear UI without clutter.
+- Managed state with React hooks (`useState`, `useEffect`) for simplicity.
+- Used `AsyncStorage` for local task persistence without needing a backend.
+
 
