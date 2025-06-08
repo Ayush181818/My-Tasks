@@ -30,6 +30,12 @@
         "projectId": "5b4514e7-2b51-4854-89be-a6118d6000f3"
       }
     },
-    "owner": "psycho_devil"
+    "owner": "psycho_devil",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5b4514e7-2b51-4854-89be-a6118d6000f3"
+    }
   }
 }
